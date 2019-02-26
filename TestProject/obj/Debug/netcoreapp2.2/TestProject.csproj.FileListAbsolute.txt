@@ -1,0 +1,17 @@
+C:\Development\EFCoreExample\TestProject\bin\Debug\netcoreapp2.2\NUnit3.TestAdapter.dll
+C:\Development\EFCoreExample\TestProject\bin\Debug\netcoreapp2.2\NUnit3.TestAdapter.pdb
+C:\Development\EFCoreExample\TestProject\bin\Debug\netcoreapp2.2\nunit.engine.netstandard.dll
+C:\Development\EFCoreExample\TestProject\bin\Debug\netcoreapp2.2\TestProject.deps.json
+C:\Development\EFCoreExample\TestProject\bin\Debug\netcoreapp2.2\TestProject.runtimeconfig.json
+C:\Development\EFCoreExample\TestProject\bin\Debug\netcoreapp2.2\TestProject.runtimeconfig.dev.json
+C:\Development\EFCoreExample\TestProject\bin\Debug\netcoreapp2.2\TestProject.dll
+C:\Development\EFCoreExample\TestProject\bin\Debug\netcoreapp2.2\AspnetCoreEFCoreExample.dll
+C:\Development\EFCoreExample\TestProject\bin\Debug\netcoreapp2.2\AspnetCoreEFCoreExample.pdb
+C:\Development\EFCoreExample\TestProject\obj\Debug\netcoreapp2.2\TestProject.csprojAssemblyReference.cache
+C:\Development\EFCoreExample\TestProject\obj\Debug\netcoreapp2.2\TestProject.csproj.CoreCompileInputs.cache
+C:\Development\EFCoreExample\TestProject\obj\Debug\netcoreapp2.2\TestProject.AssemblyInfoInputs.cache
+C:\Development\EFCoreExample\TestProject\obj\Debug\netcoreapp2.2\TestProject.AssemblyInfo.cs
+C:\Development\EFCoreExample\TestProject\obj\Debug\netcoreapp2.2\TestProject.csproj.CopyComplete
+C:\Development\EFCoreExample\TestProject\bin\Debug\netcoreapp2.2\TestProject.pdb
+C:\Development\EFCoreExample\TestProject\obj\Debug\netcoreapp2.2\TestProject.dll
+C:\Development\EFCoreExample\TestProject\obj\Debug\netcoreapp2.2\TestProject.pdb

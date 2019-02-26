@@ -11,9 +11,10 @@ using System;
 namespace AspnetCoreEFCoreExample.Migrations
 {
     [DbContext(typeof(DataBaseContext))]
-    partial class DataBaseContextModelSnapshot : ModelSnapshot
+    [Migration("20190226194237_AddedDescription")]
+    partial class AddedDescription
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -29,32 +30,9 @@ namespace AspnetCoreEFCoreExample.Migrations
 
                     b.Property<string>("Name");
 
-                    b.Property<int?>("SecondModelId");
-
                     b.HasKey("Id");
-
-                    b.HasIndex("SecondModelId");
 
                     b.ToTable("MyModels");
-                });
-
-            modelBuilder.Entity("AspnetCoreEFCoreExample.Models.MySecondModel", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd();
-
-                    b.Property<string>("Name");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("MySecondModel");
-                });
-
-            modelBuilder.Entity("AspnetCoreEFCoreExample.Models.MyModel", b =>
-                {
-                    b.HasOne("AspnetCoreEFCoreExample.Models.MySecondModel", "SecondModel")
-                        .WithMany()
-                        .HasForeignKey("SecondModelId");
                 });
 #pragma warning restore 612, 618
         }

@@ -1,5 +1,6 @@
 ﻿using AspnetCoreEFCoreExample.Models;
 using AspnetCoreEFCoreExample.Repositories;
+using AspnetCoreEFCoreExample.Service;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
@@ -23,6 +24,8 @@ namespace AspnetCoreEFCoreExample
         {
             var configurationSection = Configuration.GetSection("ConnectionStrings:DefaultConnection");
             services.AddDbContext<DataBaseContext>(options => options.UseSqlServer(configurationSection.Value));
+            services.AddTransient<IMyFirstService, MyFirstService>();
+            services.AddScoped<IExampleRepository, ExampleRepository>();
             // Add framework services.
 
             services.AddMvc();
